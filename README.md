@@ -1,14 +1,10 @@
-# 📊 Quant Research Platform
+# DailyQuant
 
-개인 퀀트 리서치 플랫폼입니다. 한국(KRX) 및 미국(US) 주식 시장을 대상으로 알파 팩터 리서치, 전략 백테스팅, 기술적 지표 분석을 수행하고, 그 결과를 정적 웹사이트로 시각화합니다.
-
-> **핵심 철학**: 분석은 로컬(VSCode)에서, 결과만 GitHub Pages에 게시합니다.
-
-🔗 **Live Site**: [your-username.github.io/quant-research](https://your-username.github.io/quant-research)
+개인 퀀트 리서치 사이트입니다. 한국(KRX) 및 미국(US) 주식 시장을 대상으로 알파 팩터 리서치, 전략 백테스팅, 기술적 지표 분석을 수행하고, 그 결과를 정적 웹사이트로 시각화합니다.
 
 ---
 
-## 📁 프로젝트 구조
+## 프로젝트 구조
 
 ```
 quant-research/
@@ -64,7 +60,7 @@ quant-research/
 
 ---
 
-## ⚙️ 환경 세팅
+## 환경 세팅
 
 ### 1. 저장소 클론
 
@@ -99,7 +95,7 @@ KOREA_INVESTMENT_APP_SECRET=your_secret_here
 
 ---
 
-## 🚀 사용 방법
+## 사용 방법
 
 ### 종목 데이터 수집
 
@@ -146,7 +142,7 @@ GitHub Pages가 자동으로 사이트를 업데이트합니다.
 
 ---
 
-## 🛠️ 기술 스택
+## 기술 스택
 
 | 구분 | 기술 |
 |------|------|
@@ -190,9 +186,9 @@ GitHub Pages가 자동으로 사이트를 업데이트합니다.
 
 ---
 
-## ⚠️ 주의사항
+## 주의사항
 
 - `output/` 폴더는 gitignore 처리되어 GitHub에 올라가지 않습니다.
 - `.env` 파일에 API 키를 저장하고 절대 커밋하지 마세요.
-- 본 프로젝트는 **투자 권유가 아닙니다**. 리서치 및 학습 목적으로만 사용하세요.
+
 
